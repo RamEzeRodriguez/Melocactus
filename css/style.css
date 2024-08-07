@@ -1,0 +1,267 @@
+/*Reset*/
+*{
+    font-family:"Thasadith", sans-serif;
+}
+/*...Index page style...*/
+/*Header*/
+header {
+    background-color: rgba(239, 242, 234, 0.646);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+/*Logo*/
+.cont-logo {
+    width: 100px;
+    justify-content: flex-start;
+}
+.cont-logo img {
+    width:70%;
+    display: flex;
+    margin-left: 0;
+}
+/*Nav*/
+.menu-list {
+    list-style-type: none;
+    display: flex;  
+    justify-content: center;
+    margin-right: 40px;
+    gap: 20px;
+}
+.menu-list li a {
+    text-decoration:none;
+    color:black;
+    font-family: "Thasadith", sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    align-items: center;
+    font-size: 15px;
+}
+/*Main*/
+/*Background*/
+.portada {
+    background-image: url(/img/melo.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+/*Text*/
+h1 {
+    font-family: "Bowlby One", sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+    color: antiquewhite;
+    font-style: normal;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h2 {
+    font-family: "Thasadith", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(63, 219, 154);
+    font-style: normal;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    letter-spacing: 3px;
+    transform: translate(-50%,-50%);
+}
+/*Section*/
+/*Background*/
+.bio {
+    background-image: url(/img/argenlive.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+/*Cont*/
+.bio-content {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    margin-top: 10;
+    align-content: center;
+}
+.video-container {
+    margin-right: 30px;
+}
+/*Video*/
+.bio video {
+    vertical-align: middle;
+    width: 250px;
+    height: auto;
+    margin-bottom: 50px;
+}
+/*Text*/
+.text-cont {
+    font-family: "Thasadith", sans-serif;    
+    font-style: normal;
+    font-weight: 10;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(50, 194, 134, 0.655); 
+}
+.parrafo-bio {
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 9;
+}
+/*Footer*/
+footer {
+    background-color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-cont {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 20px;
+}
+/*Redes Sociales*/
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.social-icon {
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.social-icon:hover {
+    color: chartreuse;
+}
+/*...Trabajos Page Style...*/
+/*Background*/
+.portada-trabajos {
+    background-image: url(../img/volcas.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+/*Playlist*/
+.playlist-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+} 
+.playlist {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+}
+/*...Clases Page Style...*/
+/*Background-main*/
+.portada-clases {
+    background-image: url(../img/ableton-online.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+/*Video*/
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.youtube-video {
+    width: 600px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+.youtube-video iframe {
+    width: 100%;
+    height: 100%;
+}
+/*Contact Page Style*/
+/*Background*/
+.portada-contacto {
+    background-image: url(/img/argenlive.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+/*foto*/
+.foto {
+    position: absolute;
+    top: 31%;
+    left: 25%;
+    width: 300px;
+    z-index: 10;
+}
+.foto img {
+    width:90%;
+}
+/*Cont2*/
+.text-cont2 {
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    transform: translateY(-50%);
+  }
+/*Text*/ 
+h3 {
+    font-family: "Bowlby One", sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    color: antiquewhite;
+    font-style: normal;
+}
+h4 {
+    font-family: "Thasadith", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    font-style: normal;
+    position: fixed;
+    top: 55%;
+    letter-spacing: 3px;
+}
+/*Form*/
+.contact-form {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateY(-50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 350px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    z-index: 1;
+    margin: 0 auto;
+}
