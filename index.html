@@ -10,7 +10,7 @@
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Pixelify+Sans:wght@400..700&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap" rel="stylesheet">
     <!--iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>🌵 Melocactus </title>
@@ -18,68 +18,90 @@
 <body>
     <header> <!--header--> 
         <nav class="navbar fixed-top navbar-expand-lg custom-bg" data-bs-theme="dark">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <a href="index.html">
-                    <img class="navbar-image" src="img/logo-redondo.png" alt="logo">
-                </a>
-                <ul class="navbar-nav mb-2 mb-lg-0 gap-5">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/trabajos.html">Trabajos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/clases.html">Clases</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/tienda.html">Tienda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                  </li>
-                </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="hamburger-menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <a href="index.html">
+                <img class="navbar-image" src="img/logo-redondo.png" alt="logo" id="navbar-logo">
+            </a>
+                <div class="navbar-nav ms-auto">
+                  <ul class="navbar-nav mb-2 mb-lg-0 gap-5">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/trabajos.html">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/clases.html">Clases</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div> 
           </nav> 
     </header>
     <main> <!--main-->
-        <div class="portada">
-            <h1 class="display-1">MELOCACTUS</h1>
-            <h2 class="custom-responsive-heading text-center">PRODUCTOR - BEATMAKER - DOCENTE</h2>
-        </div>    
+      <div class="portada">
+        <h1 class="display-2 glitch">MELOCACTUS</h1>
+        <h2 class="custom-responsive-heading text-center">PRODUCTOR  -  BEATMAKER  -  DOCENTE</h2>
+      </div>   
     </main>
-    <div class="container mt-5">
-      <div class="row d-flex justify-content-center">
-          <div class="col-md-6">
-              <div class="video-container">
-                  <video src="/img/electribe.mp4" controls frameborder="0" allowfullscreen>
-              </div>
-          </div>
-          <div class="col-md-6">
-              <div class="card">
-                  <div class="card-body mb-4">
-                      <h5 class="card-title">HOLA</h5>
-                      <p class="card-text">Soy Franco, a.K.A MELOCACTUS.<br> Me especializo en la producción musical de artistas de diversos géneros como folk, hip-hop, drum and bass, indirock y demás. <br>Mis servicios contemplan las etapas de pre-producción desde la composición y arreglos, pasando por la grabación y la post-producción , realizando la mezcla y masterización de obras para distintos formatos y escenarios. <br>Participo del proyecto "música para dibujar" junto al artista plástico ale sordi, en el que hacemos performances en vivo en diferentes lugares de c.A.B.A. <br>También me dedico a la enseñanza dando clases de producción musical con ableton live en "ARJAUS", buenos aires, argentina.</p>
-                  </div>
-              </div>
-          </div>
+    
+    <div class="container-card">
+      <div class="card">
+        <img src="img/akai-pads.jpg" alt="imagen live set">
+        <div class="intro">
+          <h4>Soy Productor</h4>
+          <p>Me especializo en producción musical de diversos géneros como folk, hip-hop, drum and bass, indie y más. Mis servicios contemplan las etapas de pre-producción desde la composición y arreglos, pasando por la grabación y la post-producción.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/push.jpg" alt="imagen live set">
+        <div class="intro">
+          <h4>Hago Beats</h4>
+          <p>Practico el oficio del fingerdrumming. Combino la producción de beats electrónicos con la técnica de tocar ritmos usando solo los dedos. Exploro la fusión de sonidos digitales y orgánicos, buscando crear experiencias sonoras ricas e interesantes.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/akai.jpg" alt="imagen live set">
+        <div class="intro">
+          <h4>Doy Clases</h4>
+          <p>También me dedico a la enseñanza dando clases de producción musical con ableton live en "ARJAUS", buenos aires, argentina. También brindo servicios de acesoría online, y comparto contenido educativo en mi canal de you tube.</p>
+        </div>
       </div>
     </div>
-    </section>
+
+    <div class="portada2">
+    </div>
+    
     <footer><!--footer-->
         <div class="footer-cont">
             <div class="iconos">
-                <a href="https://open.spotify.com/intl-es/artist/1tp0LhTonCxVSvhF3e0BjT?si=oFaA2iZ7RFyi6M2tPbR6Dw&utm_source=spotify&nd=1&dlsi=fa1b11f118934b66" class="social-icon"><i class="fab fa-spotify"></i>
+                <a href="https://open.spotify.com/intl-es/artist/1tp0LhTonCxVSvhF3e0BjT?si=oFaA2iZ7RFyi6M2tPbR6Dw&utm_source=spotify&nd=1&dlsi=fa1b11f118934b66" class="social-icon"><i clgit ass="fab fa-spotify"></i>
                 <a href="https://www.instagram.com/francomelocactus" class="social-icon"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.youtube.com/melocactus" class="social-icon"><i class="fab fa-youtube"></i>
             </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const hamburgerMenu = document.getElementById('hamburger-menu');
+          const navbarLogo = document.getElementById('navbar-logo');
+      
+          hamburgerMenu.addEventListener('click', function() {
+              navbarLogo.classList.toggle('centered');
+          });
+      });
+      </script>
 </body>
 </html>

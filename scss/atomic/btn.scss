@@ -1,0 +1,14 @@
+/*Redes Sociales*/
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.social-icon {
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.social-icon:hover {
+    color: $color-primary;
+}

@@ -1,0 +1,15 @@
+//globales//
+@import "./_global";
+//reset//
+@import "./config/vars";
+@import "./config/reset";
+//layout//
+@import "./cabecera";  
+@import "./cont-principal";
+@import "./pie";
+//tarjetas//
+@import "./atomic/card";
+//botones//
+@import "./atomic/btn";
+//media queries//
+@import "./layout/mq";

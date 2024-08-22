@@ -1,0 +1,14 @@
+/*Footer*/
+footer {
+    background-color: $color-secondary;   
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+.footer-cont {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+}

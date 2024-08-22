@@ -1,0 +1,67 @@
+/*Cards*/
+.container-card {
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform: translateY(50%);
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    
+}
+.card {
+    margin: 10px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    flex-direction: column;
+}
+img {
+    height: 350px;
+    width: 350px;
+    border-radius: 3px;
+    transition: .5s;
+    max-width: 100%;
+
+}
+.intro {
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    background: rgb(27,27,27, .5);
+    color: white;
+}
+.card:hover {
+    cursor: pointer;
+}
+.card:hover .intro {
+    height: 200px;
+    bottom: 1px;
+    background: rgba(27, 27, 27, 0.673);
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img {
+    transform: scale(1.1) rotate(-3deg);
+}
+.tienda-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+} 
+.card-img-top {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+}
+.tienda-cont .card p {
+    color: white;
+    font-size: 16px;
+}
