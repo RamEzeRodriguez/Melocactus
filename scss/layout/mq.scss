@@ -58,3 +58,12 @@
     .playlist-cont {grid-template-columns: 1fr;
   }
 }
+@each $platform, $color in $social-colors {
+    .social-icon.#{$platform} { 
+      color: $color; 
+  
+      &:hover {
+        color: lighten($color-tertiary, 20%); // Or darken(), or a different color
+      }
+    }
+}

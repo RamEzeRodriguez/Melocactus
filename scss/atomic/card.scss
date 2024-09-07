@@ -1,14 +1,14 @@
 /*Cards*/
  .container-card {
-    position: absolute; /* Position relative to .portada2 */
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center in .portada2 */
+    transform: translate(-50%, -50%);
     background-color: transparent;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    z-index: 2; /* Ensure it's above .portada2 */
+    z-index: 2;
     width: 100%;
 } 
 .card {

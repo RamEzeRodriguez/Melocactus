@@ -296,15 +296,15 @@ footer {
 
 /*Cards*/
 .container-card {
-  position: absolute; /* Position relative to .portada2 */
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center in .portada2 */
+  transform: translate(-50%, -50%);
   background-color: transparent;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  z-index: 2; /* Ensure it's above .portada2 */
+  z-index: 2;
   width: 100%;
 }
 
@@ -375,6 +375,7 @@ img {
 .social-icon {
   font-size: 24px;
   transition: color 0.3s ease;
+  color: #98cf17;
 }
 
 .social-icon:hover {
@@ -436,6 +437,26 @@ img {
   .playlist-cont {
     grid-template-columns: 1fr;
   }
+}
+.social-icon.instagram {
+  color: #e4405f;
+}
+.social-icon.instagram:hover {
+  color: #c3ed5f;
+}
+
+.social-icon.youtube {
+  color: #cd201f;
+}
+.social-icon.youtube:hover {
+  color: #c3ed5f;
+}
+
+.social-icon.spotify {
+  color: #1DB954;
+}
+.social-icon.spotify:hover {
+  color: #c3ed5f;
 }
 
 /*# sourceMappingURL=main.css.map */
