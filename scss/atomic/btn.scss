@@ -12,3 +12,18 @@
 .social-icon:hover {
     color: $color-primary;
 }
+.tienda-cont .btn {
+    color: $color-tertiary;
+    background-color: $color-secondary;
+
+    &:hover { 
+        background-color: lighten($color-secondary, 20%); 
+    }
+}
+.contact-form .btn {
+    color: $color-secondary;
+    background-color: $color-tertiary;
+    &:hover { 
+        background-color: lighten($color-tertiary, 20%); 
+    }
+}

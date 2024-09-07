@@ -1,16 +1,16 @@
 /*Cards*/
-.container-card {
-    position: absolute;
+ .container-card {
+    position: absolute; /* Position relative to .portada2 */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center in .portada2 */
     background-color: transparent;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    transform: translateY(50%);
-    z-index: 1;
+    z-index: 2; /* Ensure it's above .portada2 */
     width: 100%;
-    left: 0;
-    
-}
+} 
 .card {
     margin: 10px;
     box-shadow: 5px 5px 20px black;
@@ -50,12 +50,6 @@ img {
 .card:hover img {
     transform: scale(1.1) rotate(-3deg);
 }
-.tienda-cont {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-} 
 .card-img-top {
     width: 100%;
     height: 350px;
